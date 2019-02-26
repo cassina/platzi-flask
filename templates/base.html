@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}Flask Platzi |{% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        {% include 'navbar.html' %}
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
