@@ -1,2 +1,2 @@
-class BaseConfig:
-    SECRET_KEY = 'SUPER SECRETO'
+class Config:
+    SECRET_KEY = 'SUPER SECRET'
